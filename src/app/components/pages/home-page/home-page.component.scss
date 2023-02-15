@@ -1,8 +1,39 @@
-.container img{
+img{
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 25%;
   height: auto;
   border-radius: 450px;
+}
+
+.skill-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  // grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.skill-group {
+  text-align: center;
+}
+
+.skill-group h2 {
+  margin-bottom: 2px;
+}
+
+.skill-group ul {
+  padding: 0;
+  list-style: none;
+}
+
+.skill-group ul li {
+  margin: 5px 0;
 }
