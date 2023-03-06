@@ -11,7 +11,7 @@ import { AboutPageComponent } from './components/pages/about-page/about-page.com
     AppComponent,
     HomePageComponent,
     AboutPageComponent
-  ],
+    ],
   imports: [
     BrowserModule,
     AppRoutingModule
