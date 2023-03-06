@@ -11,7 +11,8 @@ import { NavbarComponent } from './components/pages/navbar/navbar.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomePageComponent },
-  { path: 'about', component: AboutPageComponent }
+  { path: 'about', component: AboutPageComponent },
+  { path: 'services', component: ServicesPageComponent }
 ];
 
 @NgModule({
