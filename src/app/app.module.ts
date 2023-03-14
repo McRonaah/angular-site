@@ -8,6 +8,7 @@ import { HomePageComponent } from './components/pages/1home/home-page/home-page.
 import { AboutPageComponent } from './components/pages/2About/about-page/about-page.component';
 import { ServicesPageComponent } from './components/pages/4Services/services-page/services-page.component';
 import { NavbarComponent } from './components/pages/0navbar/navbar.component';
+import { ExperiencesComponent } from './components/pages/2About/experiences/experiences.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomePageComponent },
@@ -21,7 +22,8 @@ const appRoutes: Routes = [
     HomePageComponent,
     AboutPageComponent,
     ServicesPageComponent,
-    NavbarComponent
+    NavbarComponent,
+    ExperiencesComponent
     ],
   imports: [
     BrowserModule,
